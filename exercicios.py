@@ -125,12 +125,17 @@
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 
-n1 = int(input('Informe um número: '))
-n2 = int(input('Informe outro número: '))
-resultado = n1 == n2
-print(f'Resultado de igualdade: {resultado}')
+#n1 = int(input('Informe um número: '))
+#n2 = int(input('Informe outro número: '))
+#resultado = n1 == n2
+#print(f'Resultado de igualdade: {resultado}')
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+n1 = int(input('Informe um número: '))
+n2 = int(input('Informe outro número: '))
+resultado = n1 != n2
+print(f'Resultado de diferença: {resultado}')
 
 # #### try-except e if
 
