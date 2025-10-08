@@ -27,7 +27,9 @@ divisao = n1 // n2
 print(f'O resultado da divisão inteira de {n1} / {n2} = {divisao}')
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-
+n1 = int(input('Digite um número: '))
+raiz = n1 ** 2
+print(f'A raiz qudrada de {n1} é:{raiz}')
 
 
 # #### Números de Ponto Flutuante (`float`)
