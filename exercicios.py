@@ -21,6 +21,11 @@ divisao = n1 * n2
 print(f'O resultado de {n1} x {n2} = {divisao} ')
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+n1 = int(input('Informe um número: '))
+n2 =int(input('Informe ouro número: '))
+divisao = n1 // n2
+print(f'O resultado da divisão inteira de {n1} / {n2} = {divisao}')
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 
