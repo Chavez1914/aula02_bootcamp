@@ -43,13 +43,19 @@
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 
-nf1 = float(input('Digite um número com decimal: '))
-nf2 = float(input('Digite outro número: '))
+#nf1 = float(input('Digite um número com decimal: '))
+#nf2 = float(input('Digite outro número: '))
 
-media = float(nf1 + nf2)/2
-print(f'A média dos números fornecidos é: {media:.2f}')
+#media = float(nf1 + nf2)/2
+#print(f'A média dos números fornecidos é: {media:.2f}')
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+base = float(input('Digite um número para calcular sua potência: '))
+expoente = float(input('Digite outro número: '))
+potencia = base ** expoente
+print(f'O resultado da potência é: {potencia:.1f}')
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
