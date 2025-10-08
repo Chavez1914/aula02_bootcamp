@@ -1,40 +1,46 @@
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
-n1 = int(input('Digite um número: '))
-n2 = int(input('Digite outro número: '))
-soma = n1 + n2
-print(f'A soma  de {n1} + {n2} é = {soma}')
+# n1 = int(input('Digite um número: '))
+# n2 = int(input('Digite outro número: '))
+# soma = n1 + n2
+# print(f'A soma  de {n1} + {n2} é = {soma}')
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 
-n1 = int(input('Informe um número: '))
-resto_divisao = n1 % 5
-print(f'o resto da divisão de {n1} por 5 é: {resto_divisao}')
+# n1 = int(input('Informe um número: '))
+# resto_divisao = n1 % 5
+# print(f'o resto da divisão de {n1} por 5 é: {resto_divisao}')
 
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
-n1 = int(input('Informe um número: '))
-n2 = int(input('Informe outro número: '))
-divisao = n1 * n2
-print(f'O resultado de {n1} x {n2} = {divisao} ')
+# n1 = int(input('Informe um número: '))
+# n2 = int(input('Informe outro número: '))
+# divisao = n1 * n2
+# print(f'O resultado de {n1} x {n2} = {divisao} ')
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-n1 = int(input('Informe um número: '))
-n2 =int(input('Informe ouro número: '))
-divisao = n1 // n2
-print(f'O resultado da divisão inteira de {n1} / {n2} = {divisao}')
+# n1 = int(input('Informe um número: '))
+# n2 =int(input('Informe ouro número: '))
+# divisao = n1 // n2
+# print(f'O resultado da divisão inteira de {n1} / {n2} = {divisao}')
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-n1 = int(input('Digite um número: '))
-raiz = n1 ** 2
-print(f'A raiz qudrada de {n1} é:{raiz}')
+# n1 = int(input('Digite um número: '))
+# raiz = n1 ** 2
+# print(f'A raiz qudrada de {n1} é:{raiz}')
 
 
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+nf1 = float(input('Digite um número com decimal: '))
+nf2 = float(input('Digite outro número: '))
+soma = nf2 + nf1
+print(f'A soma de {nf1} + {nf2} = {soma}')
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
