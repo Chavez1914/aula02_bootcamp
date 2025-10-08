@@ -51,12 +51,17 @@
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 
-base = float(input('Digite um número para calcular sua potência: '))
-expoente = float(input('Digite outro número: '))
-potencia = base ** expoente
-print(f'O resultado da potência é: {potencia:.1f}')
+#base = float(input('Digite um número para calcular sua potência: '))
+#expoente = float(input('Digite outro número: '))
+#potencia = base ** expoente
+#print(f'O resultado da potência é: {potencia:.1f}')
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
+celsius = float(input('Digite a temperatura da sua cidade em: '))
+fahrenheit = (celsius * 9/5) + 32
+print(f"{celsius}°C é igual a {fahrenheit}°F")
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 # #### Strings (`str`)
