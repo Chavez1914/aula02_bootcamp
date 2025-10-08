@@ -117,12 +117,19 @@
 #print("Resultado do OR lógico:", resultado_or)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-valor1 = True
-valor2 = False
-resultado_not = not valor1
-print("Resultado do NOT lógico:", resultado_not)
+
+#valor1 = True
+#valor2 = False
+#resultado_not = not valor1
+#print("Resultado do NOT lógico:", resultado_not)
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+n1 = int(input('Informe um número: '))
+n2 = int(input('Informe outro número: '))
+resultado = n1 == n2
+print(f'Resultado de igualdade: {resultado}')
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
 # #### try-except e if
