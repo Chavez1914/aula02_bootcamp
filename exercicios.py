@@ -180,4 +180,20 @@ except ValueError:
     print('Erro: Entrada inválida. certifique-se de inserir números.')
 
 # 24: Classificador de Números
+
+try:
+   num = int(input('Digite um número: '))
+   if num > 0:
+      print('Positivo')
+   elif num < 0:
+      print('Negativo')
+   else:
+      print('Zero')
+   if num % 2 == 0:
+      print('Par')
+   else:
+      print('Impar')
+except ValueError:
+   print('Por favor, digite um número inteiro válido.')
+
 # 25: Conversão de Tipo com Validação
